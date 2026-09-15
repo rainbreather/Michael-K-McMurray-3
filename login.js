@@ -40,7 +40,7 @@ submitBtn.addEventListener("click", async () => {
     const password1 = input;
 
     if (username === "rainer" && password1 === "219802451") {
-        print("You are logged in as a student.");
+        print("You are logged in as rainer.");
         document.getElementById("main-link").style.display = "block";  // ← SHOW LINK
     } else if (username === "teacher" && password1 === "qwerty") {
         print("You are logged in as a teacher.");
