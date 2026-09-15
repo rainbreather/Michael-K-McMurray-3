@@ -25,7 +25,7 @@ submitBtn.addEventListener("click", async () => {
     if (currentStep === "askUsername") {
         username = input;
 
-        if (username === "student" || username === "teacher") {
+        if (username === "rainer" || username === "teacher") {
             print("Thank you.");
             await sleep(1000);
             print("Please input your password:");
@@ -39,7 +39,7 @@ submitBtn.addEventListener("click", async () => {
 } else if (currentStep === "askPassword") {
     const password1 = input;
 
-    if (username === "student" && password1 === "123456") {
+    if (username === "rainer" && password1 === "219802451") {
         print("You are logged in as a student.");
         document.getElementById("main-link").style.display = "block";  // ← SHOW LINK
     } else if (username === "teacher" && password1 === "qwerty") {
