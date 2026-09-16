@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Personal Webpage</title>
+<style>
+body {
+       background-color: black;
+       font-family: Arial;
+       color: black;
+       text-align: center;
+     }
+div.header {
+	    background-color: tomato;
+	    color: white;
+	    text-align: center;
+	    padding: 20px;
+     }
+h1 {
+       color: navy;
+       font-size: 36px;
+     }
+p{
+       font-size: 18px;
+     }
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #F8F8F8;/Pale gray, Bright Snow/
+    padding: 10px;
+}
+.grid-item {
+    background-color: #4CAF50; /Apple Green/
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.button-transition {
+  background-color: navy;
+  color: white;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+ 
+.button-transition:hover {
+  background-color: tomato;
+}
+img {
+      width: 200px;
+      height: 125px;
+      border-radius: 50%;
+      border: 3px solid green;
+      margin-top: 10px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    padding: 20px;
+}
+.flex-item {
+   background-color: darkorange;
+   color: white;
+   padding: 20px;
+   width: 28%;
+   text-align: center;
+}
+</style>
+</head>
+<body>
+<div class = "header">
+  <h1>Welcome to My Webpage!</h1>
+<p>This is the webpage I have created.</p>
+ <pre style = "font-size: 24px";>
+My Name: Michael McMurray
+Where I Live: The Present
+Age: 24	
+ </pre>
+<br>
 
+<div class="grid-container">
+
+<div class="grid-item"><a href ="https://www.youtube.com/watch?v=sDOxeU02NUM&list=RDsDOxeU02NUM&start_radio=1" style = "color:black"; target = "_blank";><button class = "button-transition">A Song I Like</button></a></div>
+
+<div class="grid-item"></div>
+
+<div class="grid-item"><a href ="jsadventure" style = "color:black"; target = "_blank";>
+<button class = "button-transition">JavaScript Adventure</button></a></div>
+
+<div class="grid-item"></div>
+
+<div class="grid-item"><a href ="adventure.html" style = "color:black"; target = "_blank";>
+<button class = "button-transition">Adventure Game</button></a></div>
+
+<div class="grid-item"></div>
+
+</div>
+</div>
+<div class="flex-container">
+   <div class="flex-item">
+<p>Check out my favorite website:<a href="https://www.craigslist.org/area/kansascity"target="_blank">Craigslist</a>
+  </p>
+</div>
+<div class="flex-item">
+<a href="https://www.zodiacsign.com/zodiac-signs/virgo/" target="_blank"><img src="https://github.com/rainbreather/Michael-K-McMurray-3/blob/main/MM.jpeg.jpg?raw=true" alt="Constellations" 
+title = "Link to Zodiac Information"></a>
+</div>
+<div class="flex-item">
+<p>My Contact: <a href="mailto:rainbreather219802451@gmail.com" target="_blank">rainbreather219802451@gmail.com</a></p>
+</div>
+</div>
+</body>
+</html>
