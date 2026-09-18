@@ -26,7 +26,7 @@ p{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
-    background-color: darkorange, maroon, Black;
+    background-color: darkorange, maroon, black;
     padding: 10px;
 }
 .grid-item {
@@ -79,7 +79,7 @@ img {
 }
 .table-style1 th {
 
-     background-color: maroon;
+     background-color: solid maroon;
 }
 .table-style2 {
                 width: 60%;
@@ -89,14 +89,40 @@ img {
 }
 .table-style2 th, table-style2 td {
      border: 2px black;
-     padding:10px;
+     padding: 10px;
      text-align: center;
 }
 .table-style2 th {
 
-     background-color: solid navy;
+                  background-color: solid navy;
 }
-
+div.mycontainer {
+                  width: 66%;
+                  overflow: auto;
+}
+div.mycontainer div {
+                  width: 50%;
+                  float: left;
+}
+.list-style1 {
+              list-style-type: square;
+              color: black;
+              text-align: left;
+              margin: 20px;
+}
+.list-style2 {
+              list-style-type: circle;
+              color: black;
+              text-align: left;
+              margin: 20x;
+}
+.video {
+        width: 48%;
+        margin: 10px auto;
+        text-align: center;
+        border: 5px solid maroon;
+        background-color: dark orange;
+}
 </style>
 </head>
 <body>
@@ -146,7 +172,7 @@ title = "Link to Zodiac Information"></a>
 <br><br>
 <div class="grid-container">
 <div class = "grid-item">
-<h2>My Hobbies</h2>
+  <h2>My Hobbies</h2>
 <table class="table-style1">
 <tr>
 <th>Hobby</th>
@@ -160,7 +186,7 @@ title = "Link to Zodiac Information"></a>
 </div>
 <div class="grid-item"></div>
 <div class="grid-item">
-<h2>My Favorite Verses</h2>
+  <h2>My Favorite Verses</h2>
 <table class="table-style2">
 <tr>
 <th>Book</th>
@@ -178,23 +204,33 @@ title = "Link to Zodiac Information"></a>
 <td>1-33</td>
 </tr>
 </table>
-</div> </div>
-<h2>My Favorite Foods</h2>
-<ul>
+</div>
+</div>
+<div class = "mycontainer">
+<div style = "background-color: maroon";>
+  <h2>My Favorite Foods</h2>
+<ul class="list-style1">
 <li>Anything Edible</li>
 </ul>
-<h2>My Favorite Drinks</h2>
-<ul>
+</div>
+<div style = "background-color: maroon";>
+  <h2>My Favorite Drinks</h2>
+<ul class="list-style2">
 <li>Old NO.7</li>
 <li>Water</li>
+<li>Pepsi</li>
 </ul>
+</div>
+</div>
 <br><br><br>
-<h2>My Favorite Video</h2>
+<div class = "video">
+  <h2>My Favorite Video</h2>
 <video width="480" height="360"controls>
 <source src="https://github.com/rainbreather/Michael-K-McMurray-3/blob/main/I%20Met%20the%20Most%20Talkative%20Stray%20Cat%20Ever.mp4?raw=True">
 Browser Unsupported.
 </video>
-<h2>Gears Bot</h2>
+</div>
+  <h2>Gears Bot</h2>
 <iframe src="https://quirkycort.github.io/gears/public/"
   width="700"
   height="466" style="border: none;"></iframe>
